@@ -1,6 +1,4 @@
-# Version of site for visually impaired.
-
-Based on BVI plugin by Vek.
+# Vaskovsky Accessibility Toolkit (VATK)
 
 ## License GPLv2
 

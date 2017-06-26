@@ -1,6 +1,6 @@
 {
-	"name" : "vaskovsky/bvi",
-	"description" : "Version of site for visually impaired.",
+	"name" : "vaskovsky/vatk",
+	"description" : "Vaskovsky Accessibility Toolkit (VATK)",
 	"license" : "GPL-2.0",
 	"require" : {
 		"twbs/bootstrap": "3.3.7",
