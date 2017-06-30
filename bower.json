@@ -1,4 +1,24 @@
 {
-  "name": "vatk",
-  "description": "Vaskovsky Accessibility Toolkit (VATK)"
+	"name": "vatk",
+	"description": "Vaskovsky Accessibility Toolkit (VATK)",
+	"authors": [
+		"Alexey Vaskovsky <alexey@vaskovsky.net>"
+	],
+	"main": [
+		"js/vatk.min.js",
+		"css/vatk.min.css"
+	],
+	"license": "GPL-2.0+",
+	"homepage": "https://github.com/vaskovsky/vatk",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"vendor",
+		"composer.lock"
+	],
+	"dependencies": {
+		"jquery": "^3.2.1",
+		"bootstrap": "^3.3.7"
+	}
 }
