@@ -4,10 +4,6 @@
 	"authors": [
 		"Alexey Vaskovsky <alexey@vaskovsky.net>"
 	],
-	"main": [
-		"js/vatk.min.js",
-		"css/vatk.min.css"
-	],
 	"license": "GPL-2.0+",
 	"homepage": "https://github.com/vaskovsky/vatk",
 	"ignore": [
