@@ -4,7 +4,7 @@
 
 * Install using Bower:
 
-		bower install vaskovsky/vatk
+		bower install vatk
 
 * or Install using Composer
 
