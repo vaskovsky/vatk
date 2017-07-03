@@ -21,11 +21,13 @@
 * Add scripts:
 
 		<script src="./bower_components/jquery/dist/jquery.min.js"></script>
-		<script	src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 		<script src="./bower_components/vatk/js/vatk.min.js"></script>
 
 or localized version:
 
+		<script src="./bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 		<script src="./bower_components/vatk/js/vatk-ru.min.js"></script>
 
 * Add reference with `btn-vatk` class:
