@@ -1,53 +1,41 @@
 # Vaskovsky Accessibility Toolkit (VATK)
 
-## Installation
-
-* Install using Bower:
-
-		bower install vatk
-
-* or Install using Composer
-
-		composer require vaskovsky/vatk
-
 ## Usage
 
-* Add stylesheets:
+* Add stylesheet:
+```
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vatk@21.9.1/vatk.css" integrity="sha256-87SWM+2MYk5yxIPx1Q8i3alieuP6ajeahVFAt6h4AHA=" crossorigin="anonymous"/>
+```
+* Add script:
+```
+<script src="https://cdn.jsdelivr.net/npm/vatk@21.9.1/vatk.js" integrity="sha256-cniYzSqBAinR6DVeX1/ySvxONrdaNJ9kz0ygNsz6uZo="></script>
+```
+* Add references with id `openVATK` and `closeVATK`:
+```
+<a id="openVATK" href="#">Open Accessibility Toolkit</a>
+<a id="closeVATK" href="#">Close Accessibility Toolkit</a>
+```
+or reference with id `faVATK` to use a Font Awesome icon:
+```
+<a id="faVATK" href="#" ></a>
+```
+or reference with id `glyphiconVATK` to use a glyphicon:
+```
+<a id="glyphiconVATK" href="#" ></a>
+```
+or reference with id `dashiconsVATK` to use dashicons:
+```
+<a id="dashiconsVATK" href="#" ></a>
+```
 
-		<link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css"/>
-		<link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap-theme.min.css"/>
-		<link rel="stylesheet" href="./bower_components/vatk/css/vatk.min.css"/>
+## Local Installation
 
-* Add scripts:
-
-		<script src="./bower_components/jquery/dist/jquery.min.js"></script>
-		<script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-		<script src="./bower_components/vatk/js/vatk.min.js"></script>
-
-or localized version:
-
-		<script src="./bower_components/jquery/dist/jquery.min.js"></script>
-		<script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-		<script src="./bower_components/vatk/js/vatk-ru.min.js"></script>
-
-* Add reference with `btn-vatk` class:
-
-		<a href="#" class="btn-vatk"></a>
-
-## License GPLv2
-
-Copyright © 2017 Alexey Vaskovsky.
-
-This program is free software; you can redistribute it and/or
-modify it under the terms of the GNU General Public License
-as published by the Free Software Foundation; either version 2
-of the License, or (at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program; if not, write to the Free Software
-Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+* Install using NPM:
+```
+npm install vatk
+```
+* or Install using Composer
+```
+composer require vaskovsky/vatk
+```
+--------------------------------------------------------------------------------

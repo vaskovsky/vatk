@@ -1,0 +1,24 @@
+#faVATK, #glyphiconVATK, .btn-vatk, #dashiconsVATK {font-size: 150%}
+#closeVATK {display:none}
+#vatkTitle {font-weight:bold}
+#vatkPanel
+{
+	display: none;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+@media (min-width: 576px) {#vatkPanel {max-width: 540px}}
+@media (min-width: 768px) {#vatkPanel {max-width: 750px}}
+@media (min-width: 992px) {#vatkPanel {max-width: 970px}}
+@media (min-width: 1200px) {#vatkPanel {max-width: 1170px}}
+.vatkBlock {display:inline-block; margin: .25em 1.5em .25em 0}
+.vatkOption
+{
+	font-weight: bold 18pt;
+	border: solid 1px silver;
+	box-shadow: none;
+	text-shadow: none;
+}

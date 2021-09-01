@@ -1,9 +1,5 @@
 {
 	"name" : "vaskovsky/vatk",
 	"description" : "Vaskovsky Accessibility Toolkit (VATK)",
-	"license" : "GPL-2.0+",
-	"require" : {
-		"components/jquery": "^3.2.1",
-		"twbs/bootstrap": "^3.3.7"
-	}
+	"license" : "MIT"
 }
